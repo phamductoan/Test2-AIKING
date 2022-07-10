@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light container-fluid" style="background-color: white; border-bottom: 0.5px solid #DCDCDC;">
+        <a href="index.html"><img src="logo.png" alt=""></a>
+    </nav>
+    
+    <div class="container-fluid" style="background-color: whitesmoke; border-bottom: 0.5px solid #DCDCDC;">
+        <div class="container">
+            <form id="form-login">
+                <div class="row" style="align-items: center; justify-content: center; display: flex; height: 100%;">
+                    <div class="col-sm-5 mt-5" style="background-color: white; padding: auto;">
+                        <div class="col-sm-12" style="border: 0.5px solid #DCDCDC;">
+                            <h6 class="mt-4" style="text-align: center;">LOGIN TO YOUR ACCOUNT</h6>
+                            <div class="form-group mt-4">
+                                <label for="">Username</label>
+                                <p id="show-user-name-err" style="color: red; font-size: small; display: none;">Chưa nhập Username</p>
+                                <input type="text" class="form-control" id="ipn-register-username">
+                            </div>
+                            <div class="form-group mt-4">
+                                <label for="">Email</label>
+                                <p id="show-email-err" style="color: red; font-size: small; display: none;">Chưa nhập Email</p>
+                                <input type="text" class="form-control" id="ipn-register-email">
+                            </div>
+                            <div class="form-group mt-2">
+                                <label for="ipnPassword">Password</label>
+                                <p id="show-password-err" style="color: red; font-size: small; display: none;">Chưa nhập password</p>
+                                <p id="show-password-err1" style="color: red; font-size: small; display: none;">Password phải gồm tối thiểu tám ký tự, ít nhất một chữ cái, một số và một ký tự đặc biệt</p>
+                                <div class="input-group">
+                                    <input type="password" class="form-control" id="ipn-register-password">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button" id="btnPassword">
+                                        <span class="fas fa-eye"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <p id="show-response" style="color: red; font-size: small; display: none;"></p>
+                                <button class="btn btn-warning form-control" type="button" id="btn-register">Register</button>
+                            </div>
+                            <div class="mt-4" style="text-align: center; padding-bottom: 10px;">
+                                <p style="font-size: small;">By registering I confirm I have read and agree to Terms of Use. We send occasional marketing messages which can be switched off in account settings. We manage personal data as set out in our Privacy Notice.</p>
+                            </div>
+                        </div>
+                        <div style="text-align: center; padding-top: 1cm;">
+                            <p>Already have an account?<a href="index.html"> Login</a></p>
+                        </div>
+                        <div class="row" style="text-align: center; padding-bottom: 3cm;">
+                            <div class="col-sm-4">
+                                <p>Privacy Notice</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p>Cookies Notice</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p>Cookies Settings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row" style="margin-bottom: 1cm;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                <h6>Products</h6>
+                <p style="margin: 0.8px;">Blockchain Explorer</p>
+                <p style="margin: 0.8px;">Crypto API</p>
+                <p style="margin: 0.8px;">Crypto Indices</p>
+                <p style="margin: 0.8px;">Interest</p>
+                <p style="margin: 0.8px;">Jobs Board</p>
+                <p style="margin: 0.8px;">Sitemap</p>
+            </div>
+            <div class="col-sm-2">
+                <h6>Company</h6>
+                <p style="margin: 0.8px;">About us</p>
+                <p style="margin: 0.8px;">Terms of use</p>
+                <p style="margin: 0.8px;">Privacy Policy</p>
+                <p style="margin: 0.8px;">Disclaimer</p>
+                <p style="margin: 0.8px;">Methodology</p>
+                <p style="margin: 0.8px;">CareersWe're hiring!</p>
+            </div>
+            <div class="col-sm-2">
+                <h6>Support</h6>
+                <p style="margin: 0.8px;">Request Form</p>
+                <p style="margin: 0.8px;">Contact Support</p>
+                <p style="margin: 0.8px;">FAQ/p>
+                <p style="margin: 0.8px;">Glossary</p>
+            </div>
+            <div class="col-sm-2">
+                <h6>Socials</h6>
+                <p style="margin: 0.8px;">Facebook</p>
+                <p style="margin: 0.8px;">Twitter</p>
+                <p style="margin: 0.8px;">Telegram</p>
+                <p style="margin: 0.8px;">Instagram</p>
+                <p style="margin: 0.8px;">Interactive Chat</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: whitesmoke;">
+        <div style="text-align: center; margin-top: 17px;">
+            <p>Coppyright <i class="fa fa-copyright" aria-hidden="true"></i> 2022 <a style="color: black;" href="https://my.shopcoinusa.com/login#">Shopcoin.com</a></p>
+        </div>
+    </div>
+</body>
+<script>
+$(document).ready(function() {
+        const ipnElement = document.querySelector('#ipn-register-password')
+        const btnElement = document.querySelector('#btnPassword')
+
+        btnElement.addEventListener('click', function() {
+        const currentType = ipnElement.getAttribute('type')
+        ipnElement.setAttribute(
+            'type',
+            currentType === 'password' ? 'text' : 'password'
+        )
+        })
+                $("#btn-login").on("click", function(){
+            onBtnSearchClick();
+        })
+        const validatePasword = (password) => {
+            return password.match(
+                // Tối thiểu tám ký tự, ít nhất một chữ cái, một số và một ký tự đặc biệt
+                /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/
+            );
+        };
+        $("#btn-register").on("click", function(){
+            onBtnRegisterClick();
+        })
+        $("#ipn-register-username" ).change(function() {
+            $("#show-user-name-err").hide();
+            $("#show-email-err").hide();
+            $("#show-password-err").hide()
+            $("#show-password-err1").hide()
+            $("#show-response").hide()
+        });
+        $("#ipn-register-email" ).change(function() {
+            $("#show-user-name-err").hide();
+            $("#show-email-err").hide();
+            $("#show-password-err").hide()
+            $("#show-password-err1").hide()
+            $("#show-response").hide()
+        });
+        $("#ipn-register-password" ).change(function() {
+            $("#show-user-name-err").hide();
+            $("#show-email-err").hide();
+            $("#show-password-err").hide()
+            $("#show-password-err1").hide()
+            $("#show-response").hide()
+        });
+        const onBtnRegisterClick = () => {
+            var vRegisterData = {
+                username: "",
+                email: "",
+                password: ""
+            }
+            getIputData(vRegisterData);
+            validateDAta(vRegisterData);
+            var isValidate = validateDAta(vRegisterData);
+            if(isValidate) {
+                $.ajax({
+                    url : "/register",
+                    type : "post",
+                    dataType:"text",
+                    data : vRegisterData,
+                    success : function (responseText){
+                        console.log(JSON.parse(responseText))
+                        if(JSON.parse(responseText).status = "Success 201: Đăng ký thành công") {
+                            alert("Đăng ký thành công!")
+                            window.location = "index.html"
+                        }
+                                             
+                    },
+                    error: function(error){
+                        var responText = JSON.parse(error.responseText)
+                        console.log(responText.status);
+                        if(responText.status == "Error 500: Email đã được đăng ký") {
+                            $("#show-response").text("Error 500: Email đã được đăng ký")
+                            $("#show-response").show()
+                        }
+                        
+                    }
+                });
+            }
+       
+        }
+
+        const getIputData = (paramIpnData) => {
+            paramIpnData.username = $("#ipn-register-username").val()
+            paramIpnData.email = $("#ipn-register-email").val()
+            paramIpnData.password = $("#ipn-register-password").val()
+        }
+
+        const validateDAta = (paramIpnData) => {
+            if(!paramIpnData.username) {
+                $("#show-user-name-err").show()
+                return false
+            }
+            if(!paramIpnData.email) {
+                $("#show-email-err").show()
+                return false
+            }
+            if(!paramIpnData.password) {
+                $("#show-password-err").show()
+                return false
+            }
+            if (!validatePasword(paramIpnData.password)) {
+                $("#show-password-err1").show()
+                return false
+            }
+            return true   
+        }
+
+
+
+     }) 
+</script>
+</html>
